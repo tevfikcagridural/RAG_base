@@ -9,6 +9,7 @@ This work suggests an overview of how to structure a directory for a Retrieval-A
 rag-app/
 ├── data/                           # Only some samples. **It is recommended to separate data stores/databases from codebase**
 │   ├── raw/                        # Raw, unprocessed data files
+│   ├── evaluation                  # Evaluation data files
 │   ├── processed/                  # Data files after preprocessing
 │   └── external/                   # External data sources
 ├── models/                         # For using local models 
@@ -32,7 +33,8 @@ rag-app/
 │   │   └── llm_models.py           # Language model(s) handling
 │   ├── services/
 │   │   ├── __init__.py
-│   │   └── rag_service.py          # Core service for RAG system
+│   │   └── inference_service.py    # Data loading, indexing, and storing embeddings to vector database.
+│   │   └── ingestion_service.py    # Retrieval and generation.
 │   │   └── monitoring_service.py   # Monitoring service of the RAG system
 │   └── app/                        # Frontend application scripts (Streamlit, gradio, etc.)
 │       ├── __init__.py
