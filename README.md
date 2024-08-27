@@ -1,4 +1,4 @@
-# Retrieval-Augmented Generation (RAG) System System Structure
+# Retrieval-Augmented Generation (RAG) System Structure
 Inspired from [cookie-cutter-data-science](https://cookiecutter-data-science.drivendata.org).
 
 This work suggests an overview of how to structure a directory for a Retrieval-Augmented Generation (RAG) system. The proposed structure is designed to organize the various components and workflows typically involved in developing and maintaining the system.
