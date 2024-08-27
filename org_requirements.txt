@@ -1,0 +1,94 @@
+## Utils
+ipykernel
+Iprogress
+tqdm
+python-dotenv
+# pytest
+# pymongo # for mongodb
+# motor # for mongodb
+
+## GUI
+streamlit
+
+## Data Load & PDF Parse
+pypdf
+pymupdf
+pymupdf4llm
+beautifulsoup4
+requests
+
+## Huggingface
+# transformers==4.40.2 # version is for LlamaIndex's EntityExtractor
+# sentence-transformers
+# datasets
+
+## LlamaIndex
+llama-index==0.10.52
+llama-parse==0.4.4
+llama-index-readers-file
+llama-index-embeddings-openai
+llama-index-llms-openai
+# llama-index-embeddings-huggingface
+# llama-index-llms-huggingface
+# llama-index-llms-ollama
+llama-index-llms-langchain
+llama-index-llms-fireworks
+llama-index-vector-stores-pinecone
+# llama-index-extractors-entity
+# span-maker # for EntityExtractor
+# llama-index-storage-docstore-mongodb
+# llama-index-storage-index-store-mongodb
+# llama-index-readers-mongodb
+# llama-index-vector-stores-milvus
+# llama-index-storage-kvstore-redis
+# llama-index-postprocessor-colbert-rerank
+llama-index-postprocessor-cohere-rerank
+llama-index-callbacks-langfuse
+
+## LangChain
+langchain
+# langchain-community
+langsmith
+langchainhub
+# langchain-experimental
+# langchain-openai
+
+
+## Observabiliry & Guardrails
+# nemoguardrails
+
+# ## Unstructured Open Local
+# # brew install poppler # Expects to have poppler installed on the machine
+# unstructured-client
+# pdfminer.six
+# pillow-heif
+# opencv-python
+# pdf2image
+# unstructured-inference
+# pytesseract
+# unstructured.pytesseract
+
+
+## Sytem Evaluation
+# trulens-eval
+langfuse
+
+## Cloud Services
+google-cloud-secret-manager
+google-crc32c
+# openai
+# google-cloud-aiplatform
+# boto3
+
+## DS & NLP
+numpy
+scipy
+pandas
+# matplotlib
+# seaborn
+# plotly
+# scikit-learn
+# spacy
+# pacmap
+# torch # if using/developing PyTorch models
+# tensorflow # if using/developing TensorFlow models
