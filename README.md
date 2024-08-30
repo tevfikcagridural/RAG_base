@@ -1,7 +1,7 @@
-# Retrieval-Augmented Generation (RAG) System Structure
+# Retrieval-Augmented Generation (RAG) File Structure Blueprint
 Inspired from [cookie-cutter-data-science](https://cookiecutter-data-science.drivendata.org).
 
-This work suggests an overview of how to structure a directory for a Retrieval-Augmented Generation (RAG) system. The proposed structure is designed to organize the various components and workflows typically involved in developing and maintaining the system.
+This work suggests an overview of how to structure a directory for a Retrieval-Augmented Generation (RAG) system. The proposed structure is designed to organize the various components and workflows typically involved in experiments and development of the system.
 
 ## Project Structure
 
@@ -49,5 +49,3 @@ rag-app/
 ├── README.md                       # Project README file
 ├── requirements.txt                # Python dependencies
 ```
-
-Contact c.dural@gmail.com
